@@ -34,13 +34,16 @@ public class Security {
 
     private static final String[] ALLOWED_ORIGINS = {
             "http://localhost:3000",
-            "http://127.0.0.1:3000"
+            "http://127.0.0.1:3000",
+            "http://20.244.120.130",        
+            "http://20.244.120.130:3000"
     };
 
     private static final String[] ALLOWED_ORIGIN_PATTERNS = {
             "http://192.168.*.*:3000",
             "http://10.*.*.*:3000",
-            "http://172.16.*.*:3000"
+            "http://172.16.*.*:3000",
+            "http://20.244.120.*"
     };
 
     private static final String[] SWAGGER_WHITELIST = {
