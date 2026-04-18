@@ -24,9 +24,9 @@ services:
     #   mysql:
     #     condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/doanyte?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: 123
+      SPRING_DATASOURCE_URL: jdbc:mysql://drug-nhom6sql-server.mysql.database.azure.com:3306/doanyte?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8
+      SPRING_DATASOURCE_USERNAME: rootadminuser@drug-nhom6sql-server
+      SPRING_DATASOURCE_PASSWORD: Nhom6123!
       DOCKER_ENV: "true"
     ports:
       - "8080:8080"
