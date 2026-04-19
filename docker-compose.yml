@@ -25,7 +25,7 @@ services:
     #     condition: service_healthy
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://drug-nhom6sql-server.mysql.database.azure.com:3306/drugdb?useSSL=true&requireSSL=true
-      SPRING_DATASOURCE_USERNAME: adminuser@drug-nhom6sql-server
+      SPRING_DATASOURCE_USERNAME: adminuser
       SPRING_DATASOURCE_PASSWORD: Nhom6123!
       DOCKER_ENV: "true"
     ports:
